@@ -29,7 +29,7 @@ const fadeOutAnimation = css`
 const defaultBlue = ({ theme }) => theme.colors.defaultBlue;
 export const Container = styled.div`
   visibility: ${({ visible }) => (visible ? "visible" : "hidden")};
-  display: block;
+  display: ${({ visible }) => (visible ? "block" : "none")};
   height: auto;
   width: 100%;
   ${({ visible }) => (visible ? fadeInAnimation : fadeOutAnimation)}

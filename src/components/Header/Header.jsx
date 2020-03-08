@@ -1,7 +1,7 @@
 import React from "react";
 import { useBurgerMenu } from "hooks/useBurgerMenu";
 import { BurgerMenu, BurgerMenuIcon } from "./components";
-import { menuItems } from "content";
+import { useData } from "hooks/useData";
 
 import {
   HeaderComponent,
@@ -14,6 +14,8 @@ import {
 
 export const Header = () => {
   const { handleClick, displayMenu } = useBurgerMenu();
+  const { menuItems } = useData();
+
   return (
     <>
       <HeaderComponent>

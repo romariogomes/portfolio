@@ -13,8 +13,8 @@ const theme = {
   },
 
   fontSizes: {
-    text: "14px",
-    title: "16px",
+    text: "16px",
+    title: "18px",
     logo: "30px",
     menu: "16px"
   }
@@ -22,7 +22,7 @@ const theme = {
 
 export const Theme = ({ children }) => (
   <ThemeProvider theme={theme}>
-    <GlobalStyle />
     {children}
+    <GlobalStyle />
   </ThemeProvider>
 );
