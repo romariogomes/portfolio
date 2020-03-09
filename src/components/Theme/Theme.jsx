@@ -4,7 +4,8 @@ import { GlobalStyle } from "./GlobalStyle";
 
 const theme = {
   colors: {
-    defaultBlue: "#00c4f3",
+    // blue: "#00c4f3",
+    defaultBlue: "#5bc3d5",
     textColor: "#777"
   },
   fonts: {
