@@ -6,7 +6,8 @@ const theme = {
   colors: {
     // blue: "#00c4f3",
     defaultBlue: "#5bc3d5",
-    textColor: "#777"
+    textColor: "#777",
+    lightGrey: "#FAFAFA"
   },
   fonts: {
     opensans: "'Open Sans', sans-serif",
