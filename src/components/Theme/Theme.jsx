@@ -18,7 +18,8 @@ const theme = {
     text: "16px",
     title: "18px",
     logo: "30px",
-    menu: "16px"
+    menu: "16px",
+    sectionTitle: "32px"
   }
 };
 
