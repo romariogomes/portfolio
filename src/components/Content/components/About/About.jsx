@@ -8,18 +8,18 @@ import {
   Photo,
   Text,
   Title,
-  JobTitle
+  JobTitle,
 } from "./styles";
 
 const About = () => (
   <Container>
     <ContainerInfo>
-      <Title>DFASFS SAFDSAFSA</Title>
+      <Title>Romario Gomes</Title>
       <JobTitle>Software Engineer</JobTitle>
       <Text>
-        lorem fiohau dsaiof oidsja foj dsaodija oif oas ifdj ofd jisa fj oiasd
-        jfd ofadjfdsa oisf jfio sdfa jofdoijsdjfsdo ias jdfsao dfjosd oijsdfoi
-        sdoasfdi
+        A resilient software engineer that can work both frontend and backend.
+        Self-taught, moved by challenges and passionate to learn new
+        technologies.
       </Text>
       <Button>View Resume</Button>
     </ContainerInfo>
