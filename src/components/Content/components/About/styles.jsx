@@ -58,9 +58,9 @@ export const Button = styled.button`
 
 export const Text = styled.p`
   font-size: ${({ theme }) => theme.fontSizes.text};
+  color: ${({ theme }) => theme.colors.textColor};
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #292929;
   text-align: left;
 `;
